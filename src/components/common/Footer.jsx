@@ -18,115 +18,26 @@ const Footer = () => {
             <FiTwitter className="hover:text-blue-700 cursor-pointer" />
           </div>
         </div>
-
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
-          <div>
-            <h4 className="font-bold text-sm mb-2">PLATFORM</h4>
-            <ul className="space-y-1">
-              <li>
-                <a href="#" className="hover:text-blue-700">
-                  Features
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-700">
-                  Subjects
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-700">
-                  Grade Levels
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-700">
-                  Pricing
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <Link to="/Support">
-              <h4 className="font-bold text-sm mb-2"><h4 >Support</h4></h4>
+        <div className="flex w-auto">
+          <div className="ml-auto">
+          
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 ">
+         
+         
+             <Link to="/About">
+              <h4 className="font-semibold text-sm mb-2"><h4 >About Us</h4></h4>
             </Link>
-            <ul className="space-y-1">
-              <li>
-                <a href="#" className="hover:text-blue-700">
-                  Help Center
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-700">
-                  Contact Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-700">
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-700">
-                  Community
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <Link to="/About">
-              <h4 className="font-bold text-sm mb-2"><h4 >COMPANY</h4></h4>
-            </Link>
-            
-            <ul className="space-y-1">
-              <li>
-                
-                <a href="#" className="hover:text-blue-700">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-700">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-700">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-700">
-                  Press
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
             <Link to="/legal">
-              <h4 className="font-bold text-sm mb-2">LEGAL</h4>
+              <h4 className="font-semibold text-sm mb-2">LEGAL</h4>
             </Link>
-
-            <ul className="space-y-1">
-              <li>
-                <Link to="/legal#privacy" className="hover:text-blue-700">
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-               <Link to="/legal#terms" className="hover:text-blue-700">
-                 Terms and Conditions
-                </Link>
-              </li>
-              <li>
-                <Link to="/legal#cookie" className="hover:text-blue-700">
-                 Cookie
-                </Link>
-              </li>
-            </ul>
+             <h4 className="font-semibold text-sm mb-2">PLATFORM</h4>
+             <Link to="/Support">
+              <h4 className="font-semibold text-sm mb-2"><h4 >Support</h4></h4>
+            </Link>
+             
+           
           </div>
+        </div>
         </div>
 
         <hr className="my-8 border-t border-gray-200" />
