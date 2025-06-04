@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex w-auto">
-          <div className="ml-auto">
+          <div className="ml-auto"> 
           
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 ">
          
